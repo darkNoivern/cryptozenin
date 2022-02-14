@@ -1,0 +1,104 @@
+.custom-shape-divider-bottom-1639398461 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1639398461 svg {
+    position: relative;
+    display: block;
+    width: calc(122% + 1.3px);
+    height: 254px;
+    height: 260px;
+}
+
+.custom-shape-divider-bottom-1639398461 .shape-fill {
+    /* fill: #000000DE;
+    fill: #fff; */
+    fill: #212529;
+}
+
+.background-top{
+    height: 45rem;
+    position: relative;
+    border: 0;
+    /* background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+}
+
+.fatface{
+    font-family: 'Abril Fatface', cursive !important;
+}
+
+.style-bg{
+    min-height: 90vh;
+}
+
+.homex{
+    max-width: 80rem;
+    width: 95%;
+    height: 35rem;
+}
+
+.home-title{
+    font-size: 3rem;
+    line-height: 130%;
+}
+
+.home-title-container{
+    min-height: 30rem;
+}
+
+.get-started-btn{
+    border-radius: 2rem !important;
+}
+
+.about-width{
+    max-width: 90rem;
+    width: 95%;
+}
+
+.footer{
+    min-height: 15rem;
+    color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    .background-top{
+        height: 50rem;
+    }
+    .home-title-container{
+        min-height: 20rem;
+    }   
+}
+
+@media screen and (max-width: 576px) {
+    .background-top{
+        height: 60rem;
+    }
+    .home-title{
+        letter-spacing: -0.155rem;
+    }
+}
+
+.glass-features-width{
+    max-width: 80rem;
+    width: 95%;
+}
+
+.subscribe-input{
+    max-width: 35rem;
+    width: 90%;
+}
+
+.subscribe-input::placeholder{
+    color: gray !important;
+}
+
+.newsletter-text{
+    font-size: 1.3rem;
+}

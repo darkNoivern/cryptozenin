@@ -1,0 +1,10 @@
+/* NEWS-CARDS */
+.card{
+    min-height: 18rem;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 50%);
+}
+
+.card-header{
+    height: 3.5rem;
+    font-family: "Montserrat", sans-serif !important;
+}

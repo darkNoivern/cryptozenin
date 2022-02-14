@@ -1,0 +1,33 @@
+/* DOGE-INDIVIDUAL-DATA */
+.berg-heading-name{
+    font-size: 3rem;
+    font-weight: 800;
+    height: 3.1rem;
+}
+
+.berg-point{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.berg-point-answer{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.berg-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* PARSED LINKS  */
+.berg-text a{
+    color: #ffc107!important
+}
+
+/* CHART-BUTTONS */
+.btn-days{
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: 500 !important;
+}

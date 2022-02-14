@@ -1,0 +1,37 @@
+table{
+    padding: 0 1rem !important;
+}
+
+thead td{
+    padding: 0.5rem 0 !important;
+}
+
+.td-sym{
+    font-size: 2rem;
+}
+  
+.individualCrypto {
+    border-bottom: 1px solid white;
+    font-weight: 500;
+}
+
+.table {
+    width: 100%;
+    max-width: 75rem;
+}
+
+.individualCrypto-head{
+    font-weight: 600;
+}
+
+.per_change {
+    font-weight: 700 !important;
+}
+
+.custom-width{
+    width: 2rem !important;
+}
+
+.custom-lg-width{
+    width: 12rem !important;
+}
