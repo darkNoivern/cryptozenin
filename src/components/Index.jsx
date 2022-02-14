@@ -12,6 +12,7 @@ import SignIn from './SignIn'
 import { useDispatch, useSelector } from 'react-redux'
 import { ToastContainer } from 'react-toastify'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Error from './Error'
 import '../App.css'
 
 const Index = () => {
@@ -73,6 +74,7 @@ const Index = () => {
                         user === true ? <StalkList /> : <SignIn toggleUser={toggleUser} /> } />
                     <Route exact path="/signin" element={<SignIn toggleUser={toggleUser} />} />
                     <Route exact path="/signup" element={<SignUp toggleUser={toggleUser} />} />
+                    <Route path="*" element={<Error />} />
                 </Routes>
                 }
             </Router>

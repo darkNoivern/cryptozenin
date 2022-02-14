@@ -1,0 +1,9 @@
+.err-page{
+    height: 90vh;
+    width: 100vw;
+}
+
+.error-page-text{
+    font-size: 3rem;
+    line-height: 120%;
+}
